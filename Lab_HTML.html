@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab HTML</title>
+</head>
+<body>
+    <h1>Lab HTML</h1>
+    <table border="1px">
+        <thead>
+            <tr>
+                <th>Tag</th>
+                <th>Attribute</th>
+                <th>Meaning</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>h</td>
+            <td>class</td>
+            <td>ใช้ระบุคลาสใน css</td>
+        </tr>
+        <tr>
+            <td>p</td>
+            <td>style</td>
+            <td>ใช้ระบุ inline css</td>
+        </tr>
+        <tr>
+            <td>div</td>
+            <td>id</td>
+            <td>ใช้ระบุ id สำหรับอ้างอิงถึง div ตัวนี้</td>
+        </tr>
+        <tr>
+            <td>img</td>
+            <td>src</td>
+            <td>ใช้ระบุที่อยู่ของรูปภาพ</td>
+        </tr>
+        <tr>
+            <td>a</td>
+            <td>href</td>
+            <td>ใช้ระบุปลายทางที่จะไป</td>
+        </tr>
+        <tr>
+            <td>ul</td>
+            <td>hidden</td>
+            <td>ใช้สำหรับซ่อนการแสดงผล</td>
+        </tr>
+        <tr>
+            <td>ol</td>
+            <td>start</td>
+            <td>ให้เริ่มต้นนับตั้งแต่ตัวที่เท่าไหร่</td>
+        </tr>
+        <tr>
+            <td>table</td>
+            <td>width</td>
+            <td>กำหนดความกว้างของตาราง</td>
+        </tr>
+        <tr>
+            <td>form</td>
+            <td>action</td>
+            <td>เมื่อทำการ submit form จะส่งค่าไปยัง...</td>
+        </tr>
+        <tr>
+            <td>button</td>
+            <td>type</td>
+            <td>เป็นการระบุประเภทการทำงาน ชนิดของปุ่ม</td>
+        </tr>
+    </table>
+    <hr>
+
+    <h1>LAB 2 ความแตกต่าง</h1>
+    <table border="1px">
+        <thead>
+            <tr>
+                <th>Tag</th>
+                <th>ความเหมือน</th>
+                <th>ความต่าง</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>hr กับ br</td>
+                <td>เป็นการขึ้นบรรทัดใหม่</td>
+                <td>hr ขึ้นเป็นบรรทัดโล่ง <br> 
+                    br ขึ้นเป็นบรรทัดที่มีเส้นกั้น
+                </td>
+            </tr>
+            <tr>
+                <td>ul กับ ol</td>
+                <td>การเป็นแสดงผลหมวดหมู่ลิสต์</td>
+                <td>ul เป็นการแสดงผลที่ไม่มีการเรียงลำดับ <br>
+                    ol เป็นการแสดงผลที่มีการเรียงลำดับ
+                </td>
+            </tr>
+            <tr>
+                <td>select กับ checkbox กับ radio button</td>
+                <td>เป็นกล่อง input ให้ user เลือก</td>
+                <td>select ใช้ กับ option มีลักษณะเป็น dropdown ให้เลือก <br>
+                    checkbox เป็นกล่องให้ติ๊กเลือกได้หลายอัน<br>
+                    radio button เป็นกล่องให้ติ๊กเลือกได้เพียงอันเดียวในหมวดหมู่นั้น
+                </td>
+            </tr>
+            <tr>
+                <td>div กับ span</td>
+                <td>เป็นการคลอบ element อื่น ๆ</td>
+                <td>div มีลักษณะเป็น block level<br>
+                    span มีลักษณะเป็น inline level
+                </td>
+            </tr>
+            <tr>
+                <td>script กับ style</td>
+                <td>เป็นส่วนที่ใช้ครอบส่วนที่ไม่ใช้ html</td>
+                <td>script ใช้ครอบภาษา Javascript <br>
+                    style ใช้ครอบภาษา CSS
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h1>LAB 3 input type</h1>
+    <table border="1px">
+        <thead>
+            <tr>
+                <th>type</th>
+                <th>ใช้งานอย่างไร</th>
+            </tr>
+        </thead>
+        <thead>
+            <tr>
+                <td>button</td>
+                <td>ทำให้เป็นปุ่มกดใช้งาน</td>
+            </tr>
+            <tr>
+                <td>checkbox</td>
+                <td>ทำให้เป็น checkbox</td>
+            </tr>
+            <tr>
+                <td>color</td>
+                <td>ทำให้สามารถ input สำหรับเลือกสี</td>
+            </tr>
+            <tr>
+                <td>date</td>
+                <td>สามารถเลือก วัน เดือน ปี ได้</td>
+            </tr>
+            <tr>
+                <td>datetime-local</td>
+                <td>สามารถเลือก วัน เดือน ปี เวลา ได้โดยไม่คำนึงถึง timezone</td>
+            </tr>
+            <tr>
+                <td>email</td>
+                <td>input สำหรับกรอก email</td>
+            </tr>
+            <tr>
+                <td>file</td>
+                <td>ทำให้สามารถกดเพื่อเลือกไฟล์ภายในเครื่องได้</td>
+            </tr>
+            <tr>
+                <td>hidden</td>
+                <td>ซ่อนการแสดงผล</td>
+            </tr>
+            <tr>
+                <td>image</td>
+                <td>ทำให้รูปเป็นเหมือนปุ่ม submit button</td>
+            </tr>
+            <tr>
+                <td>month</td>
+                <td>เลือก เดือน ปี ไม่มี timezone</td>
+            </tr>
+            <tr>
+                <td>number</td>
+                <td>กรอกได้เฉพาะตัวเลข</td>
+            </tr>
+            <tr>
+                <td>password</td>
+                <td>สำหรับกรอก password จะมองไม่เห็นว่ากรอกอะไร</td>
+            </tr>
+            <tr>
+                <td>radio</td>
+                <td>ทำให้เป็นปุ่ม radio button</td>
+            </tr>
+            <tr>
+                <td>range</td>
+                <td>ควบคุมช่วง เช่น สไลด์บาร์</td>
+            </tr>
+            <tr>
+                <td>reset</td>
+                <td>ปุ่มสำหรับการ reset ค่า</td>
+            </tr>
+            <tr>
+                <td>search</td>
+                <td>ช่องกรอกสำหรับการค้นหาข้อมูล</td>
+            </tr>
+            <tr>
+                <td>submit</td>
+                <td>ืทำให้เป็นปุ่ม submit button</td>
+            </tr>
+            <tr>
+                <td>tel</td>
+                <td>ช่องสำหรับกรอกเบอร์โทร</td>
+            </tr>
+            <tr>
+                <td>text</td>
+                <td>ช่วงสำหรับกรอกตัวหนังสือ</td>
+            </tr>
+            <tr>
+                <td>time</td>
+                <td>ช่องสำหรับกรอกเวลา</td>
+            </tr>
+            <tr>
+                <td>url</td>
+                <td>ช่องสำหรับกรอก url</td>
+            </tr>
+            <tr>
+                <td>week</td>
+                <td>กรอกโดยใช้สัปดาห์</td>
+            </tr>
+        </thead>
+    </table>
+</body>
+</html>
